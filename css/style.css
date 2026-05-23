@@ -1,18 +1,123 @@
 body{
-    background-color: rgb(162, 162, 188);
-    color: darkorchid;
-    font-family: fantasy;
-    padding: 20px;
+    background-color: rgb(134, 131, 131);
+    color: rgb(4, 18, 37);
+    font-family: "Vidaloka", serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(4, 18, 37);
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    justify-content: left;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+h1 {
+    padding:0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+button {
+    background-color:  rgb(4, 18, 37);
+    color:rgb(134, 131, 131);
+}
+
+.search-area{
+    flex-direction: column;
+    margin: 10px;
+    padding: 30px;
 }
 
 #js-picsContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 20px;
+    padding: 10px;
 }
 
 img {
-    width: 200px;
+    width: 30%;
     border-radius: 10px;
+}
+
+.navBar {
+    
+  font-family: "Farro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media (max-width: 320px){
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    picsContainer {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+
+.vidaloka-regular {
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.farro-light {
+  font-family: "Farro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.farro-regular {
+  font-family: "Farro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.farro-medium {
+  font-family: "Farro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.farro-bold {
+  font-family: "Farro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
