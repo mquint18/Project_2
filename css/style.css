@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(134, 131, 131);
+    background-color: rgb(194, 192, 192);
     color: rgb(4, 18, 37);
     font-family: "Vidaloka", serif;
     font-weight: 400;
@@ -41,9 +41,28 @@ h1 {
 
 button {
     background-color:  rgb(4, 18, 37);
-    color:rgb(134, 131, 131);
+    color:rgb(194, 192, 192);
+    padding: 12px, 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+button:hover{
+    background-color: rgb(4, 67, 105);
+    transform: scale(1.05);
+}
+
+
+footer{
+    background-color: rgb(4, 18, 37);
+    color: white;
+    flex: auto;
+    flex-direction: row;
+    padding: 10px;
+}
 .search-area{
     flex-direction: column;
     margin: 10px;
@@ -62,6 +81,9 @@ img {
     border-radius: 10px;
 }
 
+div{
+    flex-direction: row;
+}
 .navBar {
     
   font-family: "Farro", sans-serif;

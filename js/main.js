@@ -6,6 +6,14 @@ async function findPics() {
     const searchTerm = document.getElementById("js-searchText").value;
     const apiKey = "sRwg7k2wiKb2uyQpsFfg2GmuTOIta8ES";
 
+    const input = document.getElementById("js-searchText");
+
+    // input.addEventListener("keypress", function(event) {
+    //     if (event.key === "Enter") {
+    //         document.getElementById("submitButton").click;
+    //     }
+    //  });
+
     const url = `https://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=${apiKey}&limit=12`;
 
     try{
